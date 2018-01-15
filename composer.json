@@ -1,0 +1,29 @@
+{
+    "name" : "reginasharaeva/restapibundle",
+    "description" : "Generate Rest API",
+    "version" : "1.0.0",
+    "type" : "symfony-bundle",
+    "homepage": "https://github.com/reginaSharaeva/RestApiBundle",
+    "license" : "MIT",
+    "keywords" : ["rest", "rest bundle"],
+    "authors" : [{
+        "name" : "Regina Sharaeva",
+        "email" : "sharaeva1996@mail.ru"
+    }],
+    "require" : {
+        "php": ">=5.3.2",
+        "symfony/symfony": ">=2.1",
+        "stof/doctrine-extensions-bundle": ">=1.1"
+    },
+    "suggest": {
+        "egeloen/ckeditor-bundle": "Allow use ckeditor field"
+    },
+    "autoload" : {
+        "psr-4" : { "ReginaSharaeva\\RestApiBundle\\" : "" }
+    },
+    "extra" : {
+        "branch-alias" : {
+            "dev-master" : "1.0.x-dev"
+        }
+    }
+}
